@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2241BB30C3BF9446B5DD6717 /* Pods_KurakinTestPryaniku.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BEF39143EF5C1AE64B36434 /* Pods_KurakinTestPryaniku.framework */; };
 		87F143472888333E006A0FC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F143462888333E006A0FC1 /* AppDelegate.swift */; };
 		87F143492888333E006A0FC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F143482888333E006A0FC1 /* SceneDelegate.swift */; };
 		87F1434B2888333E006A0FC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F1434A2888333E006A0FC1 /* ViewController.swift */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BEF39143EF5C1AE64B36434 /* Pods_KurakinTestPryaniku.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KurakinTestPryaniku.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4668A97386337CB2F71E10D4 /* Pods-KurakinTestPryaniku.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KurakinTestPryaniku.debug.xcconfig"; path = "Target Support Files/Pods-KurakinTestPryaniku/Pods-KurakinTestPryaniku.debug.xcconfig"; sourceTree = "<group>"; };
+		734B081D4520BADA34EEB901 /* Pods-KurakinTestPryaniku.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KurakinTestPryaniku.release.xcconfig"; path = "Target Support Files/Pods-KurakinTestPryaniku/Pods-KurakinTestPryaniku.release.xcconfig"; sourceTree = "<group>"; };
 		87F143432888333E006A0FC1 /* KurakinTestPryaniku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KurakinTestPryaniku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87F143462888333E006A0FC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87F143482888333E006A0FC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2241BB30C3BF9446B5DD6717 /* Pods_KurakinTestPryaniku.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				87F143452888333E006A0FC1 /* KurakinTestPryaniku */,
 				87F143442888333E006A0FC1 /* Products */,
+				F69B2C44CE6095175AE23546 /* Pods */,
+				CE089EBB0C4B0A71319D4CE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,24 @@
 			path = KurakinTestPryaniku;
 			sourceTree = "<group>";
 		};
+		CE089EBB0C4B0A71319D4CE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BEF39143EF5C1AE64B36434 /* Pods_KurakinTestPryaniku.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F69B2C44CE6095175AE23546 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4668A97386337CB2F71E10D4 /* Pods-KurakinTestPryaniku.debug.xcconfig */,
+				734B081D4520BADA34EEB901 /* Pods-KurakinTestPryaniku.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87F143572888333F006A0FC1 /* Build configuration list for PBXNativeTarget "KurakinTestPryaniku" */;
 			buildPhases = (
+				C6E700CD4C2010589CE66584 /* [CP] Check Pods Manifest.lock */,
 				87F1433F2888333E006A0FC1 /* Sources */,
 				87F143402888333E006A0FC1 /* Frameworks */,
 				87F143412888333E006A0FC1 /* Resources */,
+				71C63C3FD99708AF288B1446 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71C63C3FD99708AF288B1446 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KurakinTestPryaniku/Pods-KurakinTestPryaniku-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KurakinTestPryaniku/Pods-KurakinTestPryaniku-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KurakinTestPryaniku/Pods-KurakinTestPryaniku-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6E700CD4C2010589CE66584 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KurakinTestPryaniku-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		87F1433F2888333E006A0FC1 /* Sources */ = {
@@ -282,6 +351,7 @@
 		};
 		87F143582888333F006A0FC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4668A97386337CB2F71E10D4 /* Pods-KurakinTestPryaniku.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +380,7 @@
 		};
 		87F143592888333F006A0FC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 734B081D4520BADA34EEB901 /* Pods-KurakinTestPryaniku.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
